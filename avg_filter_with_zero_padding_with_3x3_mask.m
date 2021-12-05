@@ -1,4 +1,4 @@
-I = imread('C:\Users\priya\Downloads\test.png');
+I = imread('test.png');
 %imshow(I);
 size(I);
 grayImage = rgb2gray(I);
