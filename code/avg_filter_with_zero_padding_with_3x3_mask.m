@@ -1,7 +1,11 @@
-I = imread('test.png');
+I = imread('C:\Users\priya\Downloads\test.png');
 %imshow(I);
 size(I);
 grayImage = rgb2gray(I);
+
+%adding noise
+grayImage = imnoise(grayImage,'gaussian');
+
 oldImageSize = size(grayImage);
 
 %applying padding zero

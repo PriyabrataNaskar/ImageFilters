@@ -4,6 +4,9 @@ size(I);
 grayImage = rgb2gray(I);
 oldImageSize = size(grayImage);
 
+%adding noise
+grayImage = imnoise(grayImage,'gaussian');
+
 %applying padding zero
 newImage = zeros(oldImageSize(1)+4, oldImageSize(2)+4);
 newImage = uint8(newImage);
