@@ -46,3 +46,5 @@ end
 subplot(1,2,2)
 imshow(filteredImage)
 title('Median Filtered Image')
+
+saveas(gcf,'D:\MATLAB PROJECTS\output\median-filter-result.png')

@@ -25,7 +25,7 @@ end
 %plotting original gray image with padding
 subplot(1,2,1)
 imshow(newImage)
-title('Original Image')
+title('Original Image with Noise')
 
 %empty matrix for filtered image
 filteredImage = uint8(zeros(oldImageSize(1)+4, oldImageSize(2)+4));
@@ -46,3 +46,4 @@ end
 subplot(1,2,2)
 imshow(filteredImage)
 title('Max Filtered Image')
+saveas(gcf,'D:\MATLAB PROJECTS\output\max-filter-result.png')

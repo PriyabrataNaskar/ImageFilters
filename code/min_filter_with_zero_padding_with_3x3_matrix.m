@@ -46,3 +46,5 @@ end
 subplot(1,2,2)
 imshow(filteredImage)
 title('Min Filtered Image')
+
+saveas(gcf,'D:\MATLAB PROJECTS\output\min-filter-result.png')
