@@ -27,11 +27,11 @@ end
 
 [peaksnr, snr] = psnr(filteredImage, refImage);
   
-fprintf('\nThe Peak-SNR value is %0.4f', peaksnr);
+fprintf('\n The Peak-SNR value is %0.4f', peaksnr);
 
-[ssimval,ssimmap] = ssim(filteredImage, refImage);
+[ssimval,ssimmap] = ssim(A,ref);
 
-fprintf('\nSSIM Value: %f', ssimval)
+fprintf('Local SSIM Map with Global SSIM Value: "+num2str(ssimval))
 
 %plotting the filtered image
 subplot(1,2,2)
