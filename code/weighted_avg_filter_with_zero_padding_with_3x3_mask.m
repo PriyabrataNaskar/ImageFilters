@@ -39,4 +39,4 @@ subplot(1,2,2)
 imshow(filteredImage)
 title('Weighted Average Filtered Image')
 
-saveas(gcf,'D:\MATLAB PROJECTS\output\avg-filter-result.png')
+saveas(gcf,'D:\MATLAB PROJECTS\output\weighted-avg-filter-result.png')
