@@ -13,6 +13,10 @@ We're taking a RGB image & converting that into an gray scale image. After that 
 
 ![Average Filtering](https://github.com/PriyabrataNaskar/ImageFilters/blob/main/output/avg-filter-result.png)
 
+### After appling the Weighted Average Filtering with some noise in the image we're getting the result below
+
+![Weighted Average Filtering](https://github.com/PriyabrataNaskar/ImageFilters/blob/main/output/weighted-avg-filter-result.png)
+
 ### After appling the min filtering with some noise in the image we're getting the result below
 
 ![Min Filtering](https://github.com/PriyabrataNaskar/ImageFilters/blob/main/output/min-filter-result.png)
