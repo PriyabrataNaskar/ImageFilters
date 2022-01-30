@@ -3,7 +3,7 @@ Image filters related to spatial domain
 
 # Original Image
 
-![Original Image](https://github.com/PriyabrataNaskar/ImageFilters/blob/main/data/test.png)
+![Original Image](https://github.com/PriyabrataNaskar/ImageFilters/blob/main/data/sample_data.jpg)
 
 We're taking a RGB image & converting that into an gray scale image. After that we're adding some noise into this image. Later on we're implementing some of the filters in spatial domain to process that gray scale image.
 
