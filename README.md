@@ -28,3 +28,7 @@ We're taking an MRI image of bone segment. After that we're adding some noise in
 ### After appling the median filtering with some noise in the image we're getting the result below
 
 ![Median Filtering](https://github.com/PriyabrataNaskar/ImageFilters/blob/main/output/median-filter-result.png)
+
+### After appling the IRLS Filtering with some noise in the image we're getting the result below
+
+![IRLS Filter](https://github.com/PriyabrataNaskar/ImageFilters/blob/main/output/IRLSF-result.png)
