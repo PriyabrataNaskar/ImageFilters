@@ -31,7 +31,7 @@ fprintf('\nThe Peak-SNR value is %0.4f', peaksnr);
 
 [ssimval,ssimmap] = ssim(filteredImage, refImage);
 
-fprintf('\nSSIM Value: %f', ssimval)
+fprintf('\nSSIM Value: %f', ssimval);
 
 %plotting the filtered image
 subplot(1,2,2)

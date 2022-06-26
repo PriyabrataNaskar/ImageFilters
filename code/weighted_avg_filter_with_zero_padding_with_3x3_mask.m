@@ -31,13 +31,13 @@ for i=3:oldImageSize(1)+2
     k = k+1;
 end
 
-[peaksnr, snr] = psnr(filteredImage, refImage);
+[peaksnr, snr] = psnr(filteredImage, grayImage);
   
 fprintf('\nThe Peak-SNR value is %0.4f', peaksnr);
 
-[ssimval,ssimmap] = ssim(filteredImage, refImage);
+[ssimval,ssimmap] = ssim(filteredImage, grayImage);
 
-fprintf('\nSSIM Value: %f', ssimval)
+fprintf('\nSSIM Value: %f', ssimval);
 
 %plotting the filtered image
 subplot(1,2,2)
